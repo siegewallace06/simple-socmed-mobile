@@ -4,7 +4,7 @@ const app = express();
 const mysql = require('mysql');
 
 //define the port
-const port = 3000;
+const port = 8080;
 
 //for string query and json stuff
 app.use(express.urlencoded({ extended: true }));
